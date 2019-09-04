@@ -17,7 +17,7 @@ yarn add vue-date-dropdown
 ```
 
 ```js
-import DateDropdown from 'vue-date-dropdown'
+import DateDropdown from 'vuejs-date-dropdown'
 
 export default {
 	...

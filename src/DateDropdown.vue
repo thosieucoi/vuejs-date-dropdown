@@ -132,12 +132,12 @@
 				return
 			},
 
-			// Returns a formatted date e.g. 01.02.2018.
+			// Returns a formatted date e.g. 2018/12/25.
 			calculatedDate() {
 				const day = this.selectedDay >= 10 ? this.selectedDay : `0${this.selectedDay}`
 				const month = this.selectedMonth + 1 >= 10 ? this.selectedMonth + 1 : `0${this.selectedMonth + 1}`
 
-				return `${day}.${month}.${this.selectedYear}`
+				return `${this.selectedYear}/${month}/${day}`
 			},
 
 			// The alternative names of months
